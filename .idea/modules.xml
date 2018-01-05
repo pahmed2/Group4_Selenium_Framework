@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BestBuy_App/BestBuy_App.iml" filepath="$PROJECT_DIR$/BestBuy_App/BestBuy_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Group4.iml" filepath="$PROJECT_DIR$/Group4.iml" />
+    </modules>
+  </component>
+</project>
