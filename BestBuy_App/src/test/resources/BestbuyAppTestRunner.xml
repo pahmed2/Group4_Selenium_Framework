@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BestBuy App Test" parallel="methods" thread-count="1">
+
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnv" value="local"/>
+    <parameter name="os" value="mac"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="resolution" value="1024x768"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="63"/>
+    <parameter name="url" value="http://www.bestbuy.com"/>
+    <parameter name="testName" value="TestBestBuyApp"/>
+
+    <test name = "Bestbuy Home Page" group-by-instances="true">
+        <classes>
+            <class name="page.GlobalHeader.ShopTab.TestCellPhonesMenu"/>
+            <!--<class name="page.GlobalHeader.SearchBarTest"/>-->
+        </classes>
+    </test>
+</suite>

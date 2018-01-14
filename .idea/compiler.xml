@@ -12,7 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="BestBuy_App" target="1.8" />
-      <module name="Generic" target="1.5" />
+      <module name="Generic" target="1.7" />
       <module name="Group4" target="1.5" />
     </bytecodeTargetLevel>
   </component>
